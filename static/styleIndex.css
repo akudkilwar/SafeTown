@@ -1,0 +1,72 @@
+body {
+    background-color: #D8E1E7 !important;
+    color: #2A231F !important;
+}
+
+.logo {
+    font-family: 'Abril Fatface', cursive;
+    color: #F9943B;
+    /*border: 2px solid darkmagenta;*/
+    margin-left: 35px;
+    font-size: 30px;
+}
+
+nav {
+    background-color: #5C0601;
+    padding: 0 !important;
+    display: flex;
+    height: 90px;
+}
+
+nav ul {
+    /*border: 2px solid black;*/
+    float: right !important;
+    margin-right: 20px;
+}
+
+nav li {
+    margin: 0 10px 0  10px;
+}
+
+nav li a {
+    color: #ff8800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.j1, .j2 {
+    margin: 50px;
+    border-radius: 50px !important;
+    color: #3d342f;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.j1 h1 {
+    font-weight: 700;
+}
+/*
+.j2 {
+    background-size: auto 100%;
+}*/
+
+.jumbotron {
+    text-align: center;
+}
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+button {
+    text-align: center;
+    display: block;
+    margin: 0 auto !important;
+}
